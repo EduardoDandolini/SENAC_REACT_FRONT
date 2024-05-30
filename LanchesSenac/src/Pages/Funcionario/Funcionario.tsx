@@ -1,10 +1,24 @@
 import './Funcionario.css';
-import { Col, Container, ListGroup, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 
 const Funcionario = () => {
     return (
         <div className="stack-of-records">
+            <Form>
+                <Row>
+                    <Col xs="auto">
+                        <Form.Control
+                        type="text"
+                        placeholder="Search"
+                        className=" mr-sm-2"
+                        />
+                    </Col>
+                    <Col xs="auto">
+                        <Button type="submit">Submit</Button>
+                    </Col>
+                </Row>
+            </Form>
             <Container className='header-of-records'>
                 <Container>
                     <Row className='header-row-records'>
