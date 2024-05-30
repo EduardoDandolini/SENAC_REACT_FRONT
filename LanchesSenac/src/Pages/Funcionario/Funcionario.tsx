@@ -19,7 +19,7 @@ const Funcionario = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container>
+                <Container className='conteiner-record'>
                     <Row>
                         <Col sm={4} >
                             <label>123</label>
@@ -32,7 +32,7 @@ const Funcionario = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container>
+                <Container className='conteiner-record'>
                     <Row>
                         <Col sm={4} >
                             <label>124</label>
@@ -45,7 +45,7 @@ const Funcionario = () => {
                         </Col>
                     </Row>
                 </Container>
-                <Container>
+                <Container className='conteiner-record'>
                     <Row>
                         <Col sm={4} >
                             <label>125</label>

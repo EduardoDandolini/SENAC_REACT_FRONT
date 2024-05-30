@@ -18,3 +18,12 @@
 .records {
     border: solid 1px black;
 }
+
+.conteiner-record {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conteiner-record :hover {
+    background-color: rgb(97, 92, 102);
+}
